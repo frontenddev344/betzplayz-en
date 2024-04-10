@@ -54,6 +54,13 @@
 }
 
 @media (max-width: 991px) {
+	.language-flag {
+		margin: 0 0 0 24px;
+		position: absolute;
+		top: 34px;
+		right: 70px;
+	}
+
 	.nav {
 		padding: 1rem;
 	}
@@ -64,7 +71,7 @@
 		right: 15px;
 		top: 20px;
 		padding-top: 0.2rem;
-		z-index: 2;
+		z-index: 999999;
 	}
 
 	.nav>.nav-btn>label {
@@ -96,6 +103,7 @@
 		left: 0;
 		overflow: hidden;
 		padding-left: 20px;
+		z-index: 99999;
 	}
 
 	.nav>.nav-list>li {
@@ -159,6 +167,7 @@
 	h3 {
 		font-size: 22px;
 	}
+
 	.sub_banner_content h4 {
 		margin: 0 20px;
 	}

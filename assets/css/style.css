@@ -444,3 +444,16 @@ footer .footer_right ul li a:hover {
     margin-left: 30px;
 }
 
+.language-flag img {
+	max-width: 28px;
+	height: 28px;
+	border-radius: 50%;
+}
+
+.language-flag {
+	margin: 0 0 0 24px;
+
+}
+.privacy-term p a {
+    color: #777777;
+}
